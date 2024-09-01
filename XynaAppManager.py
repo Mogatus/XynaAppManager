@@ -17,12 +17,7 @@ the application.properties have the form:
 
 XynaAppManager will provide a GUI to view and change those properties and manage the 
 build process of the project applications.
-Story 1: Read application properties from file and display in read-only mode (1)
-    - The properties are first searched for in the local directory (1)
-    - Another property file can be read during runtime (later)
-Story 2: I want to to be able to add an application and to change an application version (2)
-Story 3: ...
-
+The implemented and palnned stories can be found in "Stories.md".
 '''
 
 from XynaAppManagerGUI import MainFrame
@@ -31,6 +26,7 @@ from XynaAppManagerGUI import MainFrame
 def main():
     mainFrame = MainFrame("Xyna Application Manager")
     mainFrame.setupGUI()
+
 
 
 
