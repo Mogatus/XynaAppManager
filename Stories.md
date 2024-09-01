@@ -6,7 +6,7 @@ Prio: 1 <br>
 Status: done <br>
 Description:<br>
 * Applications are loaded from file and displayed in a table like GUI (treeview)
-* Default for searching the file is the local folder
+* Default folder is the local folder
 
 
 ## Story: Change Versions of applications
